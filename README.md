@@ -1,1 +1,3 @@
-# Optimization-of-AX.25-in-Practical-Systems
+# Optimization of AX.25 in Practical Systems
+
+In  a  world  depending  more  and  more  on  wire- less  communication  protocols,  efforts  to  both  improve  channel throughput and retain legacy compatibility must be undertaken. Due to the ubiquitous nature of AX.25 communications in amateur radio, it is a very well supported packet radio protocol. This paper explores and summarizes a method of optimizing the throughput of an AX.25 connection by varying n, the number of information bits in a given frame, and N, the number of frames downlinked before an uplink packet occurs. Due to the inherent overhead involved when dealing with a data link layer protocol, there exists some number n and  N  that  minimizes the ratio of overhead bits to useful information bits. Two simulation methods are provided here that will easily allow for selection of the optimum N and n values based on a few real world prameters. 
